@@ -24,18 +24,43 @@ The goal of this project is to demonstrate AWS infrastructure automation and Ter
 
 ![AWS Architecture](docs/architecture.png)
 
-```text
 Internet
-    |
-    ▼
+│
+▼
 Internet Gateway
-    |
-    ▼
+│
+▼
 VPC (10.0.0.0/16)
 ├── Public Subnet (10.0.1.0/24)
+│   ├── EC2 Instance
+│   ├── Security Group
+│   └── Route Table
+│
 └── Private Subnet (10.0.2.0/24)
-```
 
+Amazon S3 Bucket
+
+
+Developer
+   │
+   ▼
+Terraform
+   │
+   ▼
+AWS Cloud
+## ![AWS Architecture](docs/architecture 2.png)
+
+VPC
+├── Public Subnet
+│   ├── EC2
+│   ├── Security Group
+│   └── Route Table
+│
+├── Private Subnet
+│
+├── Internet Gateway
+│
+└── S3 Bucket
 ## Technologies Used
 
 - AWS
