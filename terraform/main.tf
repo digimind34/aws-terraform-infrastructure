@@ -91,7 +91,7 @@ resource "aws_route_table_association" "public_assoc" {
 }
 
 resource "aws_s3_bucket" "project_bucket" {
-  bucket = "${var.project_name}-bucket-demo-2026"
+  bucket = "${var.project_name}-${random_string.bucket_suffix.result}"
 
   tags = {
     Name = "${var.project_name}-s3"
