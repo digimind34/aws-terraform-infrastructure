@@ -22,6 +22,8 @@ The goal of this project is to demonstrate AWS infrastructure automation and Ter
 
 ## Architecture
 
+architecture.png
+
 ```text
 Internet
     |
