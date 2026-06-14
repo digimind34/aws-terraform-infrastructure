@@ -22,7 +22,7 @@ The goal of this project is to demonstrate AWS infrastructure automation and Ter
 
 ## Architecture
 
-architecture.png
+![AWS Architecture](docs/architecture.png)
 
 ```text
 Internet
