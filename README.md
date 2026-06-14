@@ -48,7 +48,6 @@ Terraform
    │
    ▼
 AWS Cloud
-## ![AWS Architecture](docs/architecture 2.png)
 
 VPC
 ├── Public Subnet
@@ -83,6 +82,43 @@ VPC
 - S3
 
 
+## Validation
+
+Terraform configuration successfully validated.
+
+```bash
+terraform validate
+
+Success! The configuration is valid.
+
+## Skills Demonstrated
+
+- AWS VPC Design
+- Infrastructure as Code (Terraform)
+- AWS Networking
+- Security Groups
+- EC2 Provisioning
+- S3 Storage
+- Route Tables
+- Git Version Control
+- DevOps Documentation
+
+
+## Project Status
+
+✅ Complete
+
+Current Infrastructure:
+
+- VPC
+- Public Subnet
+- Private Subnet
+- Internet Gateway
+- Route Table
+- Route Table Association
+- Security Group
+- EC2 Instance
+- S3 Bucket
 ## Author
 
 **Babatunde Ayo**
